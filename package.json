@@ -1,0 +1,15 @@
+{
+  "name": "vxi-local-first-mcp",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Strict local-first read-only MCP status projection, without exporting project source",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "vxi-local": "./bin/vxi-local.mjs" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node bin/vxi-local.mjs demo"
+  },
+  "files": ["bin/", "src/", "docs/", "README.md", "LICENSE"]
+}
